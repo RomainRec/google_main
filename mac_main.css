@@ -2,6 +2,7 @@
 
 body {
     font-family: arial,sans-serif;
+    overflow: auto;
 } 
 
 /* mise en place de la navigation en haut à droite */
@@ -33,6 +34,7 @@ li {
     font-size: 13px;
     color: white;
     background: #4285f4;
+    margin-right: 25px;
 }
 
 .connexion:hover {
@@ -116,6 +118,12 @@ footer {
 
 /* custom du footer */
 
+#france {   
+    margin-left: 48px; 
+    color : #757575;
+    border-bottom: 1px solid #e4e4e4;  
+}
+
 #bottom a {
     color:#757575;
 }
@@ -127,10 +135,5 @@ footer {
     margin-right: 40px;  
 }
 
-#france {   
-    margin-left: 48px; 
-    color : #757575;
-    border-bottom: 1px solid #e4e4e4;  
-}
 
 
