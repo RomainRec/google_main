@@ -1,17 +1,27 @@
-.nav {
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
-}
+/* changement de police pour tout le body */
+
+body {
+    font-family: arial,sans-serif
+} 
+
+/* mise en place de la navigation en haut à droite */
 
 ul {
     display: flex;
+    justify-content: flex-end;
     list-style-type: none; 
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-    font-size: 15px
+    font-size: 13px;
+    font-family: arial,sans-serif;
+
 } 
+
+li {
+    display: flex;
+    align-items: center;
+    padding:6px 8px 
+} 
+
+/* custom du bouton connexion et de l'image */
 
 .carre_google {   
     height: 25px;
@@ -19,13 +29,18 @@ ul {
 
 .connexion {   
     border: 8px solid #4285f4;
-    border-radius: 4 px;
+    border-radius: 3px;
     font-weight: bold;
     font-size: 13px;
     color: white;
     background: #4285f4;
 }
 
+.connexion:hover {
+   box-shadow :0px 1px 0 grey;
+}
+
+/* custom des liens  */
 a {
     color: black;
     text-decoration: none;
@@ -36,6 +51,7 @@ a:hover {
     text-decoration: underline;
 }
 
+/* mise en place du logo, de la search bar et des boutons  */
 section {
     display: flex;
     flex-direction:column;
@@ -45,10 +61,12 @@ section {
     margin-top:130px;
     margin-bottom:100px;
 }
-
-.boutonA {   
-    border: 8px solid #f2f2f2;
-    border-radius: 4 px;
+/* custom des boutons A et B  */
+.boutonA, .boutonB {   
+    min-width: 54px;
+    padding : 8px;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
     font-size: 13px;
     font-family : arial, sans-serif;
     font-weight: bold;
@@ -56,15 +74,17 @@ section {
     background: #f2f2f2;
     margin-right : 4px;
 }
-.boutonB {   
-    border: 8px solid #f2f2f2;
-    border-radius: 4 px;
-    font-size: 13px;
-    font-family: arial, sans-serif;
-    font-weight: bold;
-    color: #757575;
-    background: #f2f2f2;
+.boutonA:hover, .boutonB:hover { 
+    border: 1px solid #e4e4e4;
+    color: black;
 }
+
+.boutonA:active, .boutonB:active  { 
+    border: 1px solid #4285f4;
+    color: black;
+}
+
+/* custom de la search bar */
 
 .search_bar{   
    height : 34px;
@@ -73,21 +93,35 @@ section {
    margin-top: 40px;
 }
 
+.search_bar:hover {
+   box-shadow : 0px 2px 1px 0px #e4e4e4;
+}
+
+/* mise en place du footer */
 footer {   
+    position : absolute;
+    bottom : 0;
     display: flex;
+    flex-direction: column;
     background-color: #f2f2f2;
     border-top: 1px solid #e4e4e4;
     width: 100%;
-    flex-direction: column;
     font-size: 15px;
 }
-
-/*.france {
-    background-color: #f2f2f2;
-}*/
 
 #bottom {   
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #e4e4e4;  
+    margin-right: 40px;  
 }
+
+#france {   
+    margin-left: 48px; 
+    color : #757575;
+}
+
+li{   
+    color : #757575;
+}
+
