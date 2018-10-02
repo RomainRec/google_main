@@ -100,14 +100,18 @@ border-color:#a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9 !important;
 .boutonsection:hover{
 	border: 1px solid rgb(50,50,50);
 	color:rgb(50,50,50)}
-
+/*Réglage du footer*/
 footer{
 	padding-bottom: 40px;
 	color: #848484 !important;
 	background-color:#f2f2f2;
 	margin-top: 150px;
 	margin-bottom: 5px;
-	height: 60px;	
+	height: 60px;
+	position:absolute;
+	bottom:0;	
+	width:100%;
+	min-width: 900px;
 }
 /*La partie legal mention est composée de deux parties chacunes collées a un coté*/
 
