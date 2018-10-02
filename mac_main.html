@@ -10,21 +10,22 @@
 
 
 <body>
-
-	<nav>
+	<header class="header">
 		<div id="bloc_nav">
 			<a href = "https://mail.google.com/mail/?tab=wm"> Gmail </a> 
 			<a href = "https://www.google.fr/imghp?hl=fr&tab=wi"> Images </a> 
 			<img src="Image/carre_google.png" class="carre_google" />
 			<input type="button" class="connexion" value="Connexion" onclick="location.href='https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.com/'" />
 		</div>
-	</nav>
+	</header>
 
 	<section>
 		<img src="Image/googlelogo_color_272x92dp.png" /> 
-		<input type="text" />
-		<input type="button" class="boutonA" value="Recherche Google" />
-		<input type="button" class="boutonB" value="J'ai de la chance" onclick="location.href='https://www.google.com/doodles/'"" />
+		<input type="text"/>
+			<div id="bouton_google">
+				<input type="button" class="boutonA" value="Recherche Google" />
+				<input type="button" class="boutonB" value="J'ai de la chance" onclick="location.href='https://www.google.com/doodles/'"" />
+			</div>
 	</section>
 
 	<div id="france">
@@ -32,21 +33,18 @@
 	</div>
 
 	<footer>
-
-	<div id="bloc_left">
-		<a href = "https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"> Publicité </a> 
-		<a href = "https://www.google.fr/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none"> Entreprise </a> 
-		<a href = "https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&ved=0ahUKEwjCwuyisefdAhUix4UKHZM6A7sQkNQCCA4&url=https%3A%2F%2Fwww.google.fr%2Fintl%2Ffr_fr%2Fabout%2F%3Futm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw1Jwo2vO2kGpzOPWCuzWlrz"> À Propos </a> 
-	</div>
-
-
-
-	<div id="bloc_right">
-		<a href = "https://support.google.com/websearch?p=fr_consumer_info&hl=fr&fg=1"> Info Consommateurs </a> 
-		<a href = "https://www.google.fr/intl/fr_fr/policies/privacy/?fg=1"> Confidentialité </a> 
-		<a href = "https://www.google.fr/intl/fr_fr/policies/terms/?fg=1"> Conditions </a> 
-		<a href = "https://www.google.fr/preferences?hl=fr"> Paramètres </a> 
-
+	<div id="bottom">
+		<div id="bloc_left">
+			<a href = "https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"> Publicité </a> 
+			<a href = "https://www.google.fr/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none"> Entreprise </a> 
+			<a href = "https://www.google.fr/url?sa=t&rct=j&q=&esrc=s&source=webhp&cd=&ved=0ahUKEwjCwuyisefdAhUix4UKHZM6A7sQkNQCCA4&url=https%3A%2F%2Fwww.google.fr%2Fintl%2Ffr_fr%2Fabout%2F%3Futm_source%3Dgoogle.com%26utm_medium%3Dreferral%26utm_campaign%3Dhp-footer%26fg%3D1&usg=AOvVaw1Jwo2vO2kGpzOPWCuzWlrz"> À Propos </a> 
+		</div>
+		<div id="bloc_right">
+			<a href = "https://support.google.com/websearch?p=fr_consumer_info&hl=fr&fg=1"> Info Consommateurs </a> 
+			<a href = "https://www.google.fr/intl/fr_fr/policies/privacy/?fg=1"> Confidentialité </a> 
+			<a href = "https://www.google.fr/intl/fr_fr/policies/terms/?fg=1"> Conditions </a> 
+			<a href = "https://www.google.fr/preferences?hl=fr"> Paramètres </a> 
+		</div>
 	</div>
 
 	</footer>
