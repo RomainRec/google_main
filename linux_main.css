@@ -68,13 +68,20 @@ section{
 
 	font:16px;
 	border:medium none;
+	padding-bottom: 2px;
+	padding-top: 3px;
+	margin-top: -3px;
 }
 
-#searchBar text {
+#searchbar text {
 		height: 30px;
 		min-width: 120px;
+		color: #000;
 }
-
+#searchbar:hover{
+cursor:initial;
+border-color:#a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9 !important;
+}
 .boutonsection{
 	height:36px;
 	line-height: 27px;
