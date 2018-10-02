@@ -34,10 +34,12 @@ li{
 	font-weight: bold;
 	outline:none; 
 	border-radius: 2px;
+
+
 }
 
 .boutonhead:hover{
-	box-shadow: 0 1px 0;
+	box-shadow :0px 1px 0 grey;
 }
 
 /*La partie centrale est centrée en colomne*/
@@ -73,6 +75,8 @@ input[type=text] {
 #searchbar:hover{
 cursor:initial;
 border-color:#a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9 !important;
+box-shadow :4px 40px 20px 1px #e4e4e4;
+
 }
 
 /*Gestion des bouton sous la searchbar*/
