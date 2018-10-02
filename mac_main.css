@@ -1,19 +1,14 @@
-nav {
-    float: right;
-    width: 15em;
-    height: 10em;
+.header {
+    display: flex;
+    justify-content: flex-end;
 }
 
-
 #bloc_nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    font-size: 15px
 } 
 
 .carre_google {   
-    height: 20px ;
-    width: 23 px;
+    height: 25px;
 }
 
 .connexion {   
@@ -41,17 +36,63 @@ a:hover {
     background-color: #f2f2f2;
 }
 
+
+section {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top:150px;
+    margin-bottom:150px;
+}
+
+.boutonA {   
+    border: 8px solid #f2f2f2;
+    border-radius: 4 px;
+    font-size: 13px;
+    font-family : arial, sans-serif;
+    font-weight: bold;
+    color: #757575;
+    background: #f2f2f2;
+    margin-right : 4px;
+}
+.boutonB {   
+    border: 8px solid #f2f2f2;
+    border-radius: 4 px;
+    font-size: 13px;
+    font-family : arial, sans-serif;
+    font-weight: bold;
+    color: #757575;
+    background: #f2f2f2;
+}
+
+input[type=text]{   
+   height : 34px;
+   width : 550px;
+   margin: 25px;
+   margin-top: 40px;
+}
+
 #bloc_left {
     font-size: 15px
-    border-top: 1px solid #e4e4e4;
-    background-color: #f2f2f2;
 }
 
 
 #bloc_right {
     font-size: 15px
-    border-top: 1px solid #e4e4e4;
-    background-color: #f2f2f2;
+}
+#bottom {   
+    display: flex;
+    justify-content: space-between;
+    
 }
 
-
+footer {   
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    bottom:0;
+    position: absolute;
+    width:98%;
+    padding: 10px;
+}
