@@ -1,8 +1,3 @@
-html{
-	min-height: 90%;
-	min-width: 90%;
-}
-
 body{
 	display:flex;
 	flex-direction: column;
@@ -12,11 +7,8 @@ body{
 	font-family: arial,sans-serif;
 	margin: 0;
 	min-height: 90%;
-	min-width: 90%;
+	min-width: 900px;
 	
-}
-nav{
-	min-width: 90%;
 }
 /*Le nav est collé à droite*/
 ul{
@@ -55,8 +47,6 @@ section{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	min-height: 90%;
-	min-width: 90%;
 	margin-top: 89px;
 }
 /*Mise en forme de la barre de recherche*/
@@ -68,11 +58,29 @@ section{
 
 	font:16px;
 	border:medium none;
+	padding-bottom: 2px;
+	padding-top: 3px;
+	margin-top: -3px;
+}
+/*Gere l'interieur de la search bar*/
+input[type=text] {
+	height : 34px;
+	width : 550px;
+	margin: 25px;
+	margin-top: 20px;
 }
 
-#searchBar text {
-		height: 30px;
-		min-width: 120px;
+#searchbar:hover{
+cursor:initial;
+border-color:#a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9 !important;
+}
+
+/*Gestion des bouton sous la searchbar*/
+#buttons {
+	margin-top: 30px;
+	width: 500px;
+	display: flex;
+	justify-content: center;
 }
 
 .boutonsection{
@@ -87,7 +95,6 @@ section{
 	font-size: 13px;
 	margin: 11px 4px;
 	min-width: 54px;
-	padding:0.16px;
 	text-align: center;
 }
 .boutonsection:hover{
@@ -95,12 +102,11 @@ section{
 	color:rgb(50,50,50)}
 
 footer{
-	padding-bottom: 27px;
+	padding-bottom: 40px;
 	color: #848484 !important;
 	background-color:#f2f2f2;
 	margin-top: 150px;
 	margin-bottom: 5px;
-	min-width:90%;
 	height: 60px;	
 }
 /*La partie legal mention est composée de deux parties chacunes collées a un coté*/
@@ -108,14 +114,13 @@ footer{
 #Language{
 	border-top: 1px solid #e4e4e4;
 	border-bottom: 1px solid #e4e4e4;
-	padding-left: 25px;
+	padding-left: 33px;
 }
 #Legal_Mention{
 	color: #848484;
 	display: flex;
 	justify-content: space-between;
-	padding-left: 25px;
-	padding-right:25px;
+	padding-bottom: 5px;	
 }
 
 /*Les liens n'ont de décoration que lorsqu'on les survole. On distingue la couleur des liens dans le header et ailleurs*/
