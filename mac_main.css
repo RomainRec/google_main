@@ -8,6 +8,7 @@ nav {
 #bloc_nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 } 
 
 .carre_google {   
@@ -33,3 +34,24 @@ a:hover {
     color: black;
     text-decoration: underline;
 }
+
+#france {
+    font-size: 15px
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+}
+
+#bloc_left {
+    font-size: 15px
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+}
+
+
+#bloc_right {
+    font-size: 15px
+    border-top: 1px solid #e4e4e4;
+    background-color: #f2f2f2;
+}
+
+
