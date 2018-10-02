@@ -102,7 +102,7 @@ border-color:#a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9 !important;
 	color:rgb(50,50,50)}
 
 footer{
-	padding-bottom: 27px;
+	padding-bottom: 40px;
 	color: #848484 !important;
 	background-color:#f2f2f2;
 	margin-top: 150px;
@@ -120,7 +120,7 @@ footer{
 	color: #848484;
 	display: flex;
 	justify-content: space-between;
-	
+	padding-bottom: 5px;	
 }
 
 /*Les liens n'ont de décoration que lorsqu'on les survole. On distingue la couleur des liens dans le header et ailleurs*/
