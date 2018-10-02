@@ -18,11 +18,25 @@ section{
 	flex-direction: column;
 }
 footer{
-	color: #666;
+	color: #848484 !important
 }
 #Legal_Mention{
+	color: #848484;
 	display: flex;
 	justify-content: space-between;
+
+}
+a {
+	text-decoration: none;
+	color: #848484
+}
+a.aheader {
+
+	color:#222;
+	
+}
+a:hover{
+	text-decoration: underline;
 
 }
 
@@ -30,7 +44,7 @@ footer{
 background: transparent;
 /*position: absolute;*/
 line-height: 34px;
-height: 34px !importent;
+height: 34px !important;
 font:16px;
 border:medium none;
 }
