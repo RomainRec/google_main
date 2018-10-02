@@ -1,0 +1,36 @@
+body{
+	background: #fff;
+	color:#222;
+	font-family: arial,sans-serif;
+	height: 100%;
+	margin: 0px;
+	padding-left: 27px;
+	padding-right: 27px;
+}
+header{
+	display: flex;
+	justify-content: flex-end;
+}
+section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+footer{
+	color: #666;
+}
+#Legal_Mention{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+#searchbar{
+background: transparent;
+/*position: absolute;*/
+line-height: 34px;
+height: 34px !importent;
+font:16px;
+border:medium none;
+}
