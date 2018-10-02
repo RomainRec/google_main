@@ -1,6 +1,7 @@
 html{
 	min-height: 90%;
 	min-width: 90%;
+	max-width: 90%;
 }
 
 body{
@@ -125,14 +126,13 @@ footer{
 #Language{
 	border-top: 1px solid #e4e4e4;
 	border-bottom: 1px solid #e4e4e4;
-	padding-left: 25px;
+	padding-left: 33px;
 }
 #Legal_Mention{
 	color: #848484;
 	display: flex;
 	justify-content: space-between;
-	padding-left: 25px;
-	padding-right:25px;
+	
 }
 
 /*Les liens n'ont de décoration que lorsqu'on les survole. On distingue la couleur des liens dans le header et ailleurs*/
