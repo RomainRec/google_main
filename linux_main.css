@@ -1,9 +1,3 @@
-html{
-	min-height: 90%;
-	min-width: 90%;
-	max-width: 90%;
-}
-
 body{
 	display:flex;
 	flex-direction: column;
@@ -13,11 +7,8 @@ body{
 	font-family: arial,sans-serif;
 	margin: 0;
 	min-height: 90%;
-	min-width: 90%;
+	min-width: 900px;
 	
-}
-nav{
-	min-width: 90%;
 }
 /*Le nav est collé à droite*/
 ul{
@@ -56,8 +47,6 @@ section{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	min-height: 90%;
-	min-width: 90%;
 	margin-top: 89px;
 }
 /*Mise en forme de la barre de recherche*/
@@ -118,7 +107,6 @@ footer{
 	background-color:#f2f2f2;
 	margin-top: 150px;
 	margin-bottom: 5px;
-	min-width:90%;
 	height: 60px;	
 }
 /*La partie legal mention est composée de deux parties chacunes collées a un coté*/
