@@ -72,16 +72,27 @@ section{
 	padding-top: 3px;
 	margin-top: -3px;
 }
-
-#searchbar text {
-		height: 30px;
-		min-width: 120px;
-		color: #000;
+/*Gere l'interieur de la search bar*/
+input[type=text] {
+	height : 34px;
+	width : 550px;
+	margin: 25px;
+	margin-top: 20px;
 }
+
 #searchbar:hover{
 cursor:initial;
 border-color:#a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9 !important;
 }
+
+/*Gestion des bouton sous la searchbar*/
+#buttons {
+	margin-top: 30px;
+	width: 500px;
+	display: flex;
+	justify-content: center;
+}
+
 .boutonsection{
 	height:36px;
 	line-height: 27px;
@@ -94,7 +105,6 @@ border-color:#a0a0a0 #b9b9b9 #b9b9b9 #b9b9b9 !important;
 	font-size: 13px;
 	margin: 11px 4px;
 	min-width: 54px;
-	padding:0.16px;
 	text-align: center;
 }
 .boutonsection:hover{
